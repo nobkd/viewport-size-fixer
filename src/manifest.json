@@ -4,6 +4,11 @@
   "version": "0.1.0",
   "description": "Adds viewport meta to pages that miss it.",
   "homepage_url": "https://github.com/nobkd/viewport-size-fixer",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "viewport_size_fixer@nobkd.github.io"
+    }
+  },
   "content_scripts": [
     {
       "matches": [
