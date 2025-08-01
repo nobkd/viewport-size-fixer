@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Viewport Size Fixer",
+  "version": "0.1.0",
+  "description": "Adds viewport meta to pages that miss it.",
+  "homepage_url": "https://github.com/nobkd/viewport-size-fixer",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
